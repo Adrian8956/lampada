@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.btn img{
+    width: 2rem
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: blueviolet;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
